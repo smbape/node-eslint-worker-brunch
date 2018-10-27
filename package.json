@@ -1,0 +1,33 @@
+{
+  "name": "eslint-worker-brunch",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "description": "Eslint brunch plugin using workers",
+  "main": "lib/EslintWorkerPlugin.js",
+  "scripts": {
+    "lint": "eslint --fix \"lib/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smbape/node-eslint-worker-brunch"
+  },
+  "author": "Stéphane MBAPE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smbape/node-eslint-worker-brunch/issues"
+  },
+  "homepage": "https://github.com/smbape/node-eslint-worker-brunch",
+  "dependencies": {
+    "anymatch": "^2.0.0",
+    "eslint": "^5.8.0",
+    "lodash": "^4.17.11",
+    "minimatch": "^3.0.4",
+    "sem-lib": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1"
+  }
+}
